@@ -1,0 +1,107 @@
+.services {
+    margin-top: calc(5vh);
+    background-color: rgb(248,248,255);
+    /* background-color: rgb(248,248,255); */
+    /* display: flex; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 8px 20px rgba(0,0,0,0.4); */
+}
+
+.services-header-content {
+    background-color: #ffffff;
+    padding: 30px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* .services-grid-section {
+    display: flex;
+} */
+
+.services-columns {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    gap: 20px;
+    padding: 0 20px 0 40px;
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 0 0 10px 10px;
+}
+
+/* .service-columns:first-child {
+    padding: 40px;
+} */
+
+  .service-column {
+    background-color: #2565EB; 
+    border-radius: 12px;
+    padding: 32px 24px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(17vw);
+  }
+  
+  .service-icon-wrapper {
+    margin-bottom: 20px;
+    height: 30px;
+  }
+
+  .service-icon {
+    float: left;
+    padding-left: 30px;
+  }
+  
+  .service-icon svg {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    margin: 16px 0 8px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .services-header-content {
+    padding: 20px 10px;
+  }
+  
+  .services-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #2565EB;;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  /* LEFT & RIGHT LINES */
+  .services-title::before,
+  .services-title::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: rgba(173, 216, 230, 0.7); /* light blue */
+  }
+  
+  /* TEXT */
+  .services-header-text {
+    white-space: nowrap;
+    padding: 0 12px;
+    color: #2565EB;
+  }
+
+  .service-content-wrapper {
+    padding-left: 30px;
+    text-align: left;
+  }
+  
