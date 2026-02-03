@@ -78,18 +78,18 @@ const Technology = () => {
   ]
 
   return (
-    <section id="tech" className="technology comp-m77g53jb19 wixui-section">
-      <section className="tech-header comp-m77ris4e CohWsy wixui-column-strip">
+    <section id="tech" className="technology">
+      <section className="tech-header">
         <div className="tech-header-content">
           <h2 className="tech-title">
             <span className="tech-header-text">Technology & Platforms</span>
           </h2>
         </div>
       </section>
-      <section className="tech-logos-section comp-m77g53jd22 CohWsy wixui-column-strip">
-        <div className="tech-logos-row V5AUxf">
+      <section className="tech-logos-section">
+        <div className="tech-logos-row">
           {firstRowLogos.map((logo, index) => (
-            <div key={index} className="tech-logo-column YzqVVZ wixui-column-strip__column">
+            <div key={index} className="tech-logo-column">
               <div className="tech-logo-wrapper">
                 {logo.type === 'svg' ? (
                   <div className="tech-logo-svg">{logo.svg}</div>
@@ -110,10 +110,10 @@ const Technology = () => {
           ))}
         </div>
       </section>
-      <section className="tech-logos-section comp-mic75yfq CohWsy wixui-column-strip">
+      <section className="tech-logos-section">
         <div className="tech-logos-row V5AUxf">
           {secondRowLogos.map((logo, index) => (
-            <div key={index} className="tech-logo-column YzqVVZ wixui-column-strip__column">
+            <div key={index} className="tech-logo-column">
               <div className="tech-logo-wrapper">
                 <img
                   src={logo.src}

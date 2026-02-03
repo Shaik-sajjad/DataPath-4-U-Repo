@@ -1,11 +1,6 @@
 .services {
     margin-top: calc(5vh);
     background-color: rgb(248,248,255);
-    /* background-color: rgb(248,248,255); */
-    /* display: flex; */
-    /* background-color: rgba(0, 0, 0, 0.6); */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 8px 20px rgba(0,0,0,0.4); */
 }
 
 .services-header-content {
@@ -14,24 +9,15 @@
     border-radius: 10px 10px 0 0;
 }
 
-/* .services-grid-section {
-    display: flex;
-} */
 
 .services-columns {
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap: 20px;
     padding: 0 20px 0 40px;
     background-color: white;
-    /* padding: 20px; */
     border-radius: 0 0 10px 10px;
 }
-
-/* .service-columns:first-child {
-    padding: 40px;
-} */
 
   .service-column {
     background-color: #2565EB; 

@@ -19,7 +19,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Handle form submission here
     console.log('Form submitted:', formData)
     setSubmitted(true)
     setTimeout(() => {
@@ -29,17 +28,17 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="contact comp-mica5580 wixui-section">
+    <section id="contact" className="contact">
         <div className="contact-columns">
             <div className="contact-info-content">
-              <h2 className="contact-heading font_3 wixui-rich-text__text">
-                <span className="color_11 wixui-rich-text__text">Get in Touch</span>
+              <h2 className="contact-heading">
+                <span className="color_11">Get in Touch</span>
               </h2>
-              <p className="contact-phone font_8 wixui-rich-text__text">
-                <span className="color_11 wixui-rich-text__text">341-314-8473</span>
+              <p className="contact-phone">
+                <span className="color_11">341-314-8473</span>
               </p>
-              <p className="contact-email font_8 wixui-rich-text__text">
-                <span className="color_11 wixui-rich-text__text">
+              <p className="contact-email">
+                <span className="color_11">
                   <a 
                     href="mailto:Contact@datapath4u.com" 
                     className="wixui-rich-text__text"
@@ -49,7 +48,7 @@ const Contact = () => {
                   </a>
                 </span>
               </p>
-              <div className="contact-social-bar comp-mica55a51 WzbAF8">
+              <div className="contact-social-bar">
                 <ul className="mpGTIt" aria-label="Social Bar">
                   <li className="O6KwRn">
                     <a
@@ -74,11 +73,11 @@ const Contact = () => {
                 </ul>
               </div>
             </div>
-            <div className="contact-form-column comp-mica55b1 YzqVVZ wixui-column-strip__column">
+            <div className="contact-form-column">
                 <div className="contact-form-wrapper">
-                <form className="contact-form comp-mica55bj wixui-form" onSubmit={handleSubmit}>
-                    <div className="form-field comp-mica55bn wixui-text-input">
-                    <label htmlFor="input_comp-mica55bn" className="wPeA6j wixui-text-input__label">
+                <form className="contact-form" onSubmit={handleSubmit}>
+                    <div className="form-field">
+                    <label htmlFor="input_comp-mica55bn" className="wPeA6j">
                         First Name
                     </label>
                     <div className="pUnTVX">
@@ -114,14 +113,14 @@ const Contact = () => {
                     </div>
                     </div>
                     <div className="form-field comp-mica55df wixui-text-input">
-                    <label htmlFor="input_comp-mica55df" className="wPeA6j wixui-text-input__label">
+                    <label htmlFor="input_comp-mica55df" className="wPeA6j ">
                         Email
                     </label>
                     <div className="pUnTVX">
                         <input
                         name="email"
                         id="input_comp-mica55df"
-                        className="KvoMHf has-custom-focus wixui-text-input__input"
+                        className="KvoMHf has-custom-focus"
                         type="email"
                         placeholder=""
                         required
@@ -140,13 +139,13 @@ const Contact = () => {
                     <textarea
                         id="textarea_comp-mica55di"
                         name="message"
-                        className="rEindN has-custom-focus wixui-text-box__input"
+                        className="rEindN has-custom-focus"
                         placeholder=""
                         value={formData.message}
                         onChange={handleChange}
                     ></textarea>
                     </div>
-                    <div className="form-button-wrapper comp-mica55e5 FubTgk">
+                    <div className="form-button-wrapper">
                     <button
                         type="submit"
                         aria-disabled="false"
@@ -158,7 +157,7 @@ const Contact = () => {
                     </button>
                     </div>
                     {submitted && (
-                    <div className="success-message comp-mica55ez wixui-rich-text__text">
+                    <div className="success-message">
                         <p className="font_5 wixui-rich-text__text">
                         <span className="wixui-rich-text__text">Thanks for submitting!</span>
                         </p>

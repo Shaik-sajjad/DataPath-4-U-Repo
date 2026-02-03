@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1>Clear Analytics Confident Business Decisions</h1>
                 <p>Analytics & Automation To Make Faster And Smarter Decisions.</p>
                 <div className="hero-buttons">
-                    <button>Get Started</button>
+                    <button onClick={(e) => { e.preventDefault(); scrollToContact(); }}>Get Started</button>
                 </div>
             </div>
         </section>
