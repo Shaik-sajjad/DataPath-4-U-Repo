@@ -1,6 +1,6 @@
 .about {
     margin-top: calc(5vh);
-    background-color: #EAF2FF;
+    background-color:  steelblue;
     display: flex;
     /* background-color: rgba(0, 0, 0, 0.6); */
     border-radius: 10px;
@@ -15,7 +15,7 @@
 
 .about-subtitle,
 .about-heading {
-    color: #1E3A8A;
+    color: white;
 }
 
 .about-heading {
@@ -23,7 +23,7 @@
 }
 
 .about-text-content {
-    color: #334155;
+    color: white;
     width: calc(50vw);
 }
 

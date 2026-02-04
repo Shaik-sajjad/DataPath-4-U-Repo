@@ -4,9 +4,13 @@
 }
 
 .services-header-content {
-    background-color: #ffffff;
-    padding: 30px 10px;
-    border-radius: 10px 10px 0 0;
+    background-color: steelblue;
+    padding: 20px 10px;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -20,7 +24,7 @@
 }
 
   .service-column {
-    background-color: #2565EB; 
+    background-color: steelblue; 
     border-radius: 12px;
     padding: 32px 24px;
     text-align: center;
@@ -83,7 +87,8 @@
   .services-header-text {
     white-space: nowrap;
     padding: 0 12px;
-    color: #2565EB;
+    color: white;
+    font-size: 42px;
   }
 
   .service-content-wrapper {

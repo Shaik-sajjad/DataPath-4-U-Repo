@@ -4,8 +4,8 @@
     /* background-color: #f4f4f4;  */
     padding: 60px 0;
     border-bottom: 1px solid beige;
-    /* border-radius: 10px; */
-    box-shadow: 0 -12px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
   }
   
   .contact-column-strip {
@@ -17,10 +17,10 @@
     display: flex;
     /* flex-direction: row; */
     width: 100%;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     overflow: hidden;
     /* min-height: 100vh; */
-    background-color: rgb(65, 105, 225);
+    background-color: steelblue;
     /* padding: 80px 60px; */
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@
     font-weight: normal;
     font-family: helvetica-w01-light, sans-serif;
     line-height: normal;
-    color: rgba(0,0,0);
+    color: rgb(var(--color_11));
     margin: 0 0 16px 0;
   }
   

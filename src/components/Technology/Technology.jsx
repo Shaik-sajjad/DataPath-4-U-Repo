@@ -79,13 +79,13 @@ const Technology = () => {
 
   return (
     <section id="tech" className="technology">
-      <section className="tech-header">
+      {/* <section className="tech-header"> */}
         <div className="tech-header-content">
           <h2 className="tech-title">
             <span className="tech-header-text">Technology & Platforms</span>
           </h2>
         </div>
-      </section>
+      {/* </section> */}
       <section className="tech-logos-section">
         <div className="tech-logos-row">
           {firstRowLogos.map((logo, index) => (

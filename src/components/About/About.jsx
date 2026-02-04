@@ -11,6 +11,13 @@ const About = () => {
 
     return (
         <section id="about" className="about">
+            <div className='about-image-section'>
+                <img
+                    src={aboutImage}
+                    alt='about image'
+                    className='about-image'
+                />
+            </div>
             <div className="about-content-wrapper">
                 <p className="about-subtitle">
                     <span className="">Data Meets Direction!</span>
@@ -41,13 +48,13 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            <div className='about-image-section'>
+            {/* <div className='about-image-section'>
                 <img
                     src={aboutImage}
                     alt='about image'
                     className='about-image'
                 />
-            </div>
+            </div> */}
         </section>
     )
 }
