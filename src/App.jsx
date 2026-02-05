@@ -5,7 +5,7 @@ import About from './components/About/About'
 import Services from './components/Services/Services'
 import Technology from './components/Technology/Technology'
 import Contact from './components/Contact/Contact'
-// import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             </>
           } />
         </Routes>
-        {/* <Footer /> */} 
+        <Footer /> 
       </div>
     </Router>
   )

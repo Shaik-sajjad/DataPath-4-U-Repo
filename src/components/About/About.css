@@ -1,8 +1,7 @@
 .about {
     margin-top: calc(5vh);
-    background-color: #EAF2FF;
+    background-color: steelblue;
     display: flex;
-    /* background-color: rgba(0, 0, 0, 0.6); */
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
@@ -15,7 +14,7 @@
 
 .about-subtitle,
 .about-heading {
-    color: #1E3A8A;
+    color: white;
 }
 
 .about-heading {
@@ -23,7 +22,7 @@
 }
 
 .about-text-content {
-    color: #334155;
+    color: white;
     width: calc(50vw);
 }
 
@@ -35,21 +34,14 @@
 
 .about-button-wrapper a {
     padding: 14px 40px;
-    background-color: rgb(10, 16, 223);
-    color: rgb(var(--color_50));
-    border: 2px solid rgb(248, 248, 255);
+    background-color: #F26C5B;
+    color: black;
     border-radius: 30px;
     font-family: helvetica-w01-roman, sans-serif;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.about-button-wrapper a:hover {
-    background-color: rgb(10, 223, 42);
-    border-color: rgb(248, 248, 255);
-    color: rgb(248, 248, 255);
 }
 
 .about-image {

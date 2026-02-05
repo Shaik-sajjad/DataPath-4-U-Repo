@@ -1,5 +1,4 @@
 import './Hero.css'
-import webimg from "../../assets/hero.png";
 
 const Hero = () => {
     const scrollToContact = () => {
@@ -10,13 +9,22 @@ const Hero = () => {
     }
 
     return (
-        <section className="hero" style={{ backgroundImage: `url(${webimg})` }}>
-            <div className="hero-content">
+        <section className="hero">
+            <div className="hero-left">
                 <h1>Clear Analytics Confident Business Decisions</h1>
                 <p>Analytics & Automation To Make Faster And Smarter Decisions.</p>
                 <div className="hero-buttons">
                     <button onClick={(e) => { e.preventDefault(); scrollToContact(); }}>Get Started</button>
                 </div>
+            </div>
+            <div className="hero-right">
+                <img 
+                    src="./images/Hero.png" 
+                    alt="Image by Johannes Groll"
+                    className="hero-image"
+                    data-ssr-src-done="true"
+                    fetchPriority="high"
+                />
             </div>
         </section>
     )
