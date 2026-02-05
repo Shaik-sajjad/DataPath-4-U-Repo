@@ -48,13 +48,6 @@ const About = () => {
                     </a>
                 </div>
             </div>
-            {/* <div className='about-image-section'>
-                <img
-                    src={aboutImage}
-                    alt='about image'
-                    className='about-image'
-                />
-            </div> */}
         </section>
     )
 }
